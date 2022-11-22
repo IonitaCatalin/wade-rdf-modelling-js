@@ -1,0 +1,30 @@
+PREFIX : <http://example.com/tutorial/>
+
+:Vita_de_vie      :type  :Band .
+:Vita_de_vie      :name     "Vita de vie" .
+:Vita_de_vie      :member   :Adrian_Despot .
+:Vita_de_vie      :member   :Adrian_Ciuplea .
+:Vita_de_vie      :member   :Cherciu_Rares .
+:Vita_de_vie      :member   :Biolan_Alexandru .
+
+:Adrian_Despot      :type  :SoloArtist .
+:Adrian_Ciuplea   :type  :SoloArtist .
+:Cherciu_Rares      :type  :SoloArtist .
+:Biolan_Alexandru  :type  :SoloArtist .
+
+:Acustic :type  :Album .
+:Acustic :name     "Acustic" .
+:Acustic :year     "2013" .
+:Acustic :artist   :Vita_de_vie .
+:Acustic :track    :Visele .
+
+:Fenomental        :type  :Album .
+:Fenomental        :name     "Fenomental" .
+:Fenomental        :year     "1999" .
+:Fenomental        :artist   :Adrian_Despot .
+
+:Visele       :type  :Song .
+:Visele       :name     "Visele" .
+:Visele       :length   239 .
+:Visele       :writer   :Adrian_Despot .
+:Visele       :writer   :Adrian_Ciuplea .

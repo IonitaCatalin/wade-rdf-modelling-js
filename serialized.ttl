@@ -1,0 +1,23 @@
+@prefix c: <http://example.com/tutorial/>.
+
+c:Vita_de_vie c:type c:Band;
+    c:name "Vita de vie";
+    c:member c:Adrian_Despot, c:Adrian_Ciuplea, c:Cherciu_Rares, c:Biolan_Alexandru.
+c:Adrian_Despot c:type c:SoloArtist.
+c:Adrian_Ciuplea c:type c:SoloArtist.
+c:Cherciu_Rares c:type c:SoloArtist.
+c:Biolan_Alexandru c:type c:SoloArtist.
+c:Acustic c:type c:Album;
+    c:name "Acustic";
+    c:year "2013";
+    c:artist c:Vita_de_vie;
+    c:track c:Visele.
+c:Visele c:type c:Song;
+    c:name "Visele";
+    c:length 239;
+    c:writer c:Adrian_Despot, c:Adrian_Ciuplea.
+c:Fenomental c:type c:Album;
+    c:name "Fenomental";
+    c:year "1999";
+    c:artist c:Adrian_Despot.
+c:Cezar_Popescu c:type c:SoloArtist.
